@@ -19,7 +19,7 @@ requests (to fetch web content)
 mysql-connector-python (to interact with MySQL database)
 
 🚀 **Getting Started**
-🔹 #Prerequisites
+🔹 Prerequisites
 Ensure you have the following installed on your machine:
 ✅ Docker 🐳
 ✅ Docker Compose
@@ -30,7 +30,7 @@ Ensure you have the following installed on your machine:
 🔹 Add API integration for real-time data retrieval
 🔹 Implement a data visualization dashboard
 
-##**SQL commands**
+**SQL commands**
 
 docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=redhat -e MYSQL_DATABASE=scraper_db -p 3306:3306 MySQL:latest
 This command will:
